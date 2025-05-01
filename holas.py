@@ -1,14 +1,13 @@
-print ("Hola perras")
-
-
-
-
-print("Horas de codigo abierto para principantes de la comunidad de codigo abierto")
-print("Hola mundo")
-print("Hola mundo 2")
-
-
-print("Hola mundo 4")
-print("Hola mundo 5")
-print("Hola mundo 6")
-print("Hola mundo 7")
+n = 9
+for i in range(1, n+1):
+    for j in range(1, n+1):
+        if j == 1:
+            print(i , end= " " )
+        elif  j == i or j == n-i+1:
+            print(i, end = " ")
+        elif j == n:
+            print(i, end = " ")
+        else:
+            print(" ", end = " ")    
+    print()
+    
