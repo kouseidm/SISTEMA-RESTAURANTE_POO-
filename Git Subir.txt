@@ -1,0 +1,16 @@
+
+            PASOS PARA SUBIR ARCHIVO A REPOSITORIO GITHUB
+    link: https://github.com/kouseidm/SISTEMA-RESTAURANTE_POO-
+
+CUANDO YA ESTA CREADO EL REPOSITORIO
+    1. git init
+    2. git add .
+    3. git commit -m "NOMBRE DE CAMBIO"
+    4. git push
+
+PRIMERA VEZ DE REPOSITORIO CREADO
+    1. git init
+    2. git add .
+    3. git commit -m "first commit"
+    4. git remote add origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git
+    5. git push -u origin master
